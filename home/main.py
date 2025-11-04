@@ -52,3 +52,6 @@ def add_user():
         return redirect(url_for('users'))
     
     return "wrong call"
+
+if __name__ == "__main__":
+    app.run(debug=True)
